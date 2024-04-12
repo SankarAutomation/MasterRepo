@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T16:08:45 IST" name="Suite" finished-at="2024-04-12T16:08:56 IST" duration-ms="10864">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T16:08:45 IST" name="Test" finished-at="2024-04-12T16:08:56 IST" duration-ms="10864">
+      <class name="com.github.test.SwagLabsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:45 IST" name="setUp" finished-at="2024-04-12T16:08:52 IST" duration-ms="6446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpObject()[pri:0, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:52 IST" name="setUpObject" finished-at="2024-04-12T16:08:52 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpObject -->
+        <test-method signature="login()[pri:1, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:52 IST" name="login" finished-at="2024-04-12T16:08:53 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="productsList()[pri:2, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:53 IST" name="productsList" finished-at="2024-04-12T16:08:53 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsList -->
+        <test-method signature="productsSorting()[pri:3, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:53 IST" name="productsSorting" finished-at="2024-04-12T16:08:54 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsSorting -->
+        <test-method signature="addingToCart()[pri:4, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:54 IST" name="addingToCart" finished-at="2024-04-12T16:08:54 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingToCart -->
+        <test-method signature="checkout()[pri:5, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:54 IST" name="checkout" finished-at="2024-04-12T16:08:56 IST" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.github.test.SwagLabsTest@6bbe85a8]" started-at="2024-04-12T16:08:56 IST" name="quit" finished-at="2024-04-12T16:08:56 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.github.test.SwagLabsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
