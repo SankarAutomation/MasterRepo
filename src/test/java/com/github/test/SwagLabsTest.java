@@ -70,16 +70,6 @@ public class SwagLabsTest extends Common {
 	}
 
 
-	public void MyReport()
-	{
-
-		ExtentSparkReporter reporter = new ExtentSparkReporter("./TestReport.html");
-		ExtentReports extent = new ExtentReports();
-		extent.attachReporter(reporter);
-		extent.flush();
-	}
-
-
 }
 
 
