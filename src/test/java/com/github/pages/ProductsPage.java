@@ -52,7 +52,7 @@ public class ProductsPage extends SeleniumBase {
 
 	}
 	
-	public void addToCart() throws InterruptedException {
+	public void addToCart() {
 		
 		for (int i = 1; i <= 3; i++)
 		{
