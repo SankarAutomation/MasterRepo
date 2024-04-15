@@ -1,5 +1,7 @@
 package com.github.test;
 
+import java.util.Base64;
+
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
@@ -44,7 +46,11 @@ public class SwagLabsTest extends Common {
 		test = extent.createTest(methodName, "TC001- Login");
 		test.assignCategory("Sanity Testing");
 		test.assignAuthor("Sankar");
-		login.login(properties.getProperty("username"), properties.getProperty("password"));
+		byte[] decryptUsername = Base64.getDecoder().decode(properties.getProperty("encryptedUsername"));
+		String decryptedUsername = new String (decryptUsername);
+		byte[] decryptPwd = Base64.getDecoder().decode(properties.getProperty("encryptedPassword"));
+		String decryptedPassword = new String (decryptPwd);
+		login.login(decryptedUsername, decryptedPassword);
 
 	}
 
